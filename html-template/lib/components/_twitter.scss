@@ -1,0 +1,28 @@
+//  ========== 
+//  = Twitter component for the HairPress HTML template = 
+//  ========== 
+
+.tweet-container {
+  .tweet_time a {
+    display: block;
+    color: $textColor;
+  }
+  .bolded-line {
+    background-color: $white;
+    margin-bottom: 10px;
+  }
+  
+  li:last-child {
+    .bolded-line {
+      display: none;
+    }
+  }
+}
+.tweet_list {
+  list-style: none;
+  margin-left: 0;
+  
+  li {
+    list-style: none;
+  }
+}

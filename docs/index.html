@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hairpress HTML Template docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap-sass/bootstrap-2.2.2.min.css" rel="stylesheet">
+    <link href="bootstrap-sass/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="index.html">Hairpress Docs</a>
+          <ul class="nav">
+            <li><a href="#general">General</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#psd">PSD files</a></li>
+            <li><a href="#javascripts">JavaScript</a></li>
+            <li><a href="#themes">Color Themes</a></li>
+            <li><a href="#contact-form">Contact and Appointment Form</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header>
+  <div class="container">
+    <h1>Hairpress HTML Template Documentation</h1>
+    <p class="lead">By <a href="http://www.proteusthemes.com/">ProteusThemes</a></p>
+
+    <div class="row">
+    	<div class="span6">
+    		<ul>
+    			<li>Author: <a href="http://www.proteusthemes.com/">ProteusThemes</a></li>
+    			<li>Template on ThemeForest: <a href="http://themeforest.net/item/hairpress-html-template-for-hair-salons/3803346?ref=ProteusThemes">Hairpress - HTML Template for Hair Salons</a></li>
+    		</ul>
+    	</div>
+    	<div class="span6">
+    		<ul>
+    			<li>Version: 1.8.1</li>
+    			<li>Created: 2013-01-11</li>
+    			<li>Last modified: 2014-07-28</li>
+    		</ul>
+    	</div>
+    	<div class="span12">
+    		<img src="images/docs-cover.jpg" alt="" width="940" height="250" />
+    	</div>
+    </div>
+
+  </div>
+</header>
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span12">
+
+        <!-- General
+        ================================================== -->
+        <section id="general">
+          <div class="page-header">
+            <h1>General</h1>
+          </div>
+
+          <p>Thank you for purchasing the HairPress HTML template by <a href="www.proteusthemes.com">ProteusThemes</a>.</p>
+
+          <p>Below you will find the documentation how to use the template.</p>
+
+        </section>
+
+
+
+
+        <!-- tools, plugins
+        ================================================== -->
+
+        <section id="tools">
+        	<div class="page-header">
+        		<h1>Tools and Plugins</h1>
+        	</div>
+
+        	<h3>Build on top of Twitter Bootstrap</h3>
+        	<p>
+        		The Hairpress HTML template is build on top of SASS Twitter Boostrap HTML framework. All the components of the Bootstrap framework were left as they are during the development, so the template is upgrade-safe. The only file which has been changed and is a part of Bootstrap is <b>_variables.scss</b>, inside the <code>./lib/_variables.scss</code> directory.
+    		</p>
+    		<p>Here is the list of the variables which were changed:</p>
+    		<ul>
+    			<li><code>$textColor</code></li>
+    			<li><code>$baseFontSize</code></li>
+    			<li><code>$navbarHeight</code></li>
+    			<li><code>$navbarInverseBackground</code></li>
+    			<li><code>$navbarInverseBackgroundHighlight</code></li>
+    		</ul>
+
+        	<p>Find the documentation for Twitter Boostrap <a href="bootstrap-sass/index.html">HERE</a>.</p>
+        	<p class="alert alert-info">You are allowed to use any component in your themes available in Twitter Bootstrap. However, for the performance reasons some of the components were commented out in the <code>.lib/bootstrap.scss</code> file. Uncomment the components you need in your project and recompile the project using <code>$ compass compile</code> when you cd to the root of the template in terminal.</p>
+
+        	<h3>Bonuses / Plugins / Tools used</h3>
+
+        	<ul>
+        		<li><b>FREE BONUS: <a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848?ref=ProteusThemes">Slider Revolution</a></b> - find the documentation for the slider <a href="slider-revolution/documentation.html">HERE</a></li>
+        		<li><a href="http://jquery.com/">jQuery</a> - JS library</li>
+        		<li><a href="http://caroufredsel.dev7studios.com/">CarouFredSel</a> - carousel jQuery plugin</li>
+        		<li><a href="http://tweet.seaofclouds.com/">Tweet!</a> - jQuery plugin for loading tweets from Twitter</li>
+        		<li><a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a></li>
+        		<li><a href="http://lokeshdhakar.com/projects/lightbox2/">LightBox2</a> by Lokesh Dhakar</li>
+        		<li><a href="http://jqueryui.com/">jQuery UI for Datepicker</a></li>
+        	</ul>
+
+        	<h3>Google Fonts</h3>
+
+        	<p>There are two custom fonts from Google Fonts used in the Hairpress HTML template:</p>
+        	<ul>
+        		<li><a href="http://www.google.com/webfonts#UsePlace:use/Collection:Lobster">Lobster</a> - for the logo "Hairpress"</li>
+        		<li><a href="http://www.google.com/webfonts#UsePlace:use/Collection:PT+Sans">PT Sans</a> - for the headings and links</li>
+        	</ul>
+        </section>
+
+
+
+
+        <!-- The PSDs included
+        ================================================== -->
+        <section id="psd">
+        	<div class="page-header">
+        		<h1>PSD files</h1>
+        	</div>
+
+        	<h3>Source design PSD files</h3>
+        	<p>
+        		You will find all the 19 PSD files included in the folder <code>./extras/</code>
+    		</p>
+
+    		<h3>PSD files for creating new color variants</h3>
+    		<p>Hairpress template has been coded with very easy custom theme creation in mind. There are 5 different color themes compiled and prepared to use straight away, but you can generate your very own theme in just any color you want - the sky is the limit.</p>
+    		<p>However, there are only three images which need to be edited and saved in Photoshop to fully achieve the new template change. The PSD is located in folder <code>./images/themes/theme.psd</code>. If you need to create your custom color variant of the theme, follow the instructions <a href="index.html#themes">in this section of documentation</a>.</p>
+
+        	<h3>Images used for template preview</h3>
+
+        	<p>The images available for template preview aren't included in the HTML template because of the licences, but you can buy them at photodune.net:</p>
+        	<ul>
+        		<li><a href="http://photodune.net/item/sexy-face/2271079?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=Daniel_Dash?ref=ProteusThemes">Slider img 1</a></li>
+        		<li><a href="http://photodune.net/item/fashion-blond-girl-beautiful-makeup-and-healthy-hair/3562289?WT.ac=item_similar_thumb&WT.seg_1=item_similar_thumb&WT.z_author=yuriyzhuravov?ref=ProteusThemes">Slider img 2</a></li>
+        		<li><a href="http://photodune.net/item/afro-girl/2221302?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=Daniel_Dash?ref=ProteusThemes">Slider img 3</a></li>
+        		<li><a href="http://photodune.net/item/young-slim-sexy-woman-in-black-tight-dress/544956?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=mvaligursky?ref=ProteusThemes">Slider img 4</a></li>
+        		<li><a href="http://photodune.net/item/girl-with-fluttering-hair/583372?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=zastavkin?ref=ProteusThemes">Slider img 5</a></li>
+        		<li><a href="http://photodune.net/item/beautiful-spa-woman-clean-skin/1593518?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=Subbotina?ref=ProteusThemes">Services img 1</a></li>
+        		<li><a href="http://photodune.net/item/creative-styling/2643826?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=yurok?ref=ProteusThemes">Services img 2</a></li>
+        		<li><a href="http://photodune.net/item/woman-with-red-nails/1217159?WT.ac=category_thumb&WT.seg_1=category_thumb&WT.z_author=Artjazz?ref=ProteusThemes">Services img 3</a></li>
+        	</ul>
+        </section>
+
+
+
+        <!-- how and where to modify javascript
+        ================================================== -->
+        <section id="javascripts">
+        	<div class="page-header">
+        		<h1>JavaScript</h1>
+        	</div>
+
+        	<h3>Full page width slider</h3>
+
+        	<p>The jQuery premium plugin Revolution Slider is used for the carousel on the front page. Find the documentation for the plugin <a href="slider-revolution/documentation.html">HERE</a>.</p>
+
+        	<p>Here is the example code for the slider:</p>
+        	<pre class="prettyprint linenums">&lt;div class=&quot;fullwidthbanner-container&quot;&gt;
+        &lt;div class=&quot;fullwidthbanner&quot;&gt;
+            &lt;ul&gt;
+             &lt;li data-transition=&quot;random&quot; data-slotamount=&quot;7&quot;&gt;
+               &lt;img src=&quot;images/slider/slider-1.jpg&quot; width=&quot;1500&quot; height=&quot;530&quot; data-fullwidthcentering=&quot;on&quot; alt=&quot;&quot; /&gt;
+               &lt;div class=&quot;custom-cap&quot;&gt;WE TRULY BELIEVE HAIRCUT MATTERS&lt;/div&gt;
+             &lt;/li&gt;
+             &lt;li data-transition=&quot;random&quot; data-slotamount=&quot;7&quot;&gt;
+               &lt;img src=&quot;images/slider/slider-2.jpg&quot; width=&quot;1500&quot; height=&quot;530&quot; data-fullwidthcentering=&quot;on&quot; alt=&quot;&quot; /&gt;
+               &lt;div class=&quot;custom-cap&quot;&gt;THIS IS MY REALLY LONG CAPTION&lt;/div&gt;
+             &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;span9&quot;&gt;
+                    &lt;div class=&quot;slider-title&quot;&gt;
+                        &lt;div class=&quot;icon icons-double-line&quot;&gt;&lt;/div&gt;
+                        &lt;div class=&quot;semi-white-bg&quot; id=&quot;custom-caption-container&quot;&gt;
+
+                        &lt;/div&gt;
+                        &lt;div class=&quot;icon icons-double-line&quot;&gt;&lt;/div&gt;
+                        &lt;nav class=&quot;nav-icons&quot;&gt;
+                            &lt;a href=&quot;#&quot; class=&quot;icon icons-slider-nav-left&quot; id=&quot;slider-nav-left&quot;&gt;&lt;/a&gt;
+                            &lt;a href=&quot;#&quot; class=&quot;icon icons-slider-nav-right&quot; id=&quot;slider-nav-right&quot;&gt;&lt;/a&gt;
+                        &lt;/nav&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;span3&quot;&gt;
+                    &lt;div class=&quot;opening-time&quot;&gt;
+                        &lt;div class=&quot;time-table&quot;&gt;
+                            &lt;h3&gt;&lt;span class=&quot;icon icons-ornament-left&quot;&gt;&lt;/span&gt; &lt;span class=&quot;light&quot;&gt;OPENING&lt;/span&gt; TIME &lt;span class=&quot;icon icons-ornament-right&quot;&gt;&lt;/span&gt;&lt;/h3&gt;
+                            &lt;div class=&quot;inner-bg&quot;&gt;
+                                &lt;dl class=&quot;week-day&quot;&gt;
+                                    &lt;dt&gt;Monday&lt;/dt&gt;
+                                    &lt;dd&gt;9:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day light-bg&quot;&gt;
+                                    &lt;dt&gt;Tuesday&lt;/dt&gt;
+                                    &lt;dd&gt;9:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day today&quot;&gt;
+                                    &lt;dt&gt;Wednesday&lt;/dt&gt;
+                                    &lt;dd&gt;8:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day light-bg&quot;&gt;
+                                    &lt;dt&gt;Thursday&lt;/dt&gt;
+                                    &lt;dd&gt;9:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day&quot;&gt;
+                                    &lt;dt&gt;Friday&lt;/dt&gt;
+                                    &lt;dd&gt;9:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day light-bg&quot;&gt;
+                                    &lt;dt&gt;Saturday&lt;/dt&gt;
+                                    &lt;dd&gt;9:00-18:00&lt;/dd&gt;
+                                &lt;/dl&gt;
+                                &lt;dl class=&quot;week-day closed&quot;&gt;
+                                    &lt;dt&gt;Sunday&lt;/dt&gt;
+                                    &lt;dd&gt;CLOSED&lt;/dd&gt;
+                                &lt;/dl&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;social-icons&quot;&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;twitter&quot;&gt;&lt;span class=&quot;inactive&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;facebook&quot;&gt;&lt;span class=&quot;inactive&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;a href=&quot;#&quot; class=&quot;youtube&quot;&gt;&lt;span class=&quot;inactive&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</pre>
+
+    		<p>This will display the slider with custom captions, which needs to be placed in <code>&lt;div class="custom-cap"&gt;YOUR CAPTION&lt;/div&gt;</code>. In addition, it will display the timetable and the social icons to Twitter, Facebook and YouTube. It is important, that the <code>.fullwidthbanner-container</code> is placed outside the Bootstrap's class <code>.container</code>.</p>
+
+
+
+        	<h3>Last tweets using Tweet!</h3>
+
+        	<p><strike>To load you latest tweets from Twitter, you need to specify the right Twitter [...]</strike></p>
+
+        	<p><b>Custom</b> Twitter Stream is not supported anymore from version 1.6! We decided to discontinue the custom Twitter Stream because of the new Twitter API migration to v1.1 which requires authentication and changes in code from users.</p>
+
+            <p>From v1.6 on we use the Emebedded timelines (<a href="https://dev.twitter.com/docs/embedded-timelines">https://dev.twitter.com/docs/embedded-timelines</a>) which can be generated in the <a href="https://twitter.com/settings/widgets">Twitter Widgets</a> and the HTML code provided can be copied directly to the footer of the HTML documents. We suggest using Dark Theme.</p>
+
+
+
+
+    		<h3>Carousels</h3>
+
+    		<p>You can turn your static images / HTML block to carousel using by writing the following code:</p>
+
+    		<pre class="prettyprint linenums">&lt;nav class=&quot;arrows pull-right&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;nav-left icon icons-arrow-left&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#&quot; class=&quot;nav-right icon icons-arrow-right&quot;&gt;&lt;/a&gt;
+&lt;/nav&gt;
+&lt;div class=&quot;carousel&quot;&gt;
+	&lt;div class=&quot;slide&quot;&gt;
+		one item
+	&lt;/div&gt;
+	&lt;div class=&quot;slide&quot;&gt;
+		another carousel item
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+			<h3>Bootstrap JS</h3>
+			<p>The documentation for all the Bootstrap's JavaScript components can be found <a href="bootstrap-sass/javascript.html">HERE</a>.</p>
+
+        </section>
+
+
+
+        <!-- how to create new themes and existing themes
+        ================================================== -->
+        <section id="themes">
+        	<div class="page-header">
+        		<h1>Color Themes of the Template</h1>
+        	</div>
+
+    		<h3>Available themes</h3>
+    		<p>There are 5 different color themes available out of the box:</p>
+
+    		<ul class="thumbnails">
+    		    <li class="span4">
+    		        <div class="thumbnail">
+    		            <img src="images/violet.jpg" alt="violet theme" width="500" height="313" />
+    		            <div class="caption">
+    		            	<h3>Violet (default)</h3>
+    		            </div>
+    		        </div>
+    		    </li>
+    		    <li class="span4">
+    		        <div class="thumbnail">
+    		            <img src="images/blue.jpg" alt="blue theme" width="500" height="313" />
+    		            <div class="caption">
+    		            	<h3>Blue</h3>
+    		            </div>
+    		        </div>
+    		    </li>
+    		    <li class="span4">
+    		        <div class="thumbnail">
+    		            <img src="images/orange.jpg" alt="orange theme" width="500" height="313" />
+    		            <div class="caption">
+    		            	<h3>Orange</h3>
+    		            </div>
+    		        </div>
+    		    </li>
+    		    <li class="span4">
+    		        <div class="thumbnail">
+    		            <img src="images/olive.jpg" alt="olive theme" width="500" height="313" />
+    		            <div class="caption">
+    		            	<h3>Olive</h3>
+    		            </div>
+    		        </div>
+    		    </li>
+    		    <li class="span4">
+    		        <div class="thumbnail">
+    		            <img src="images/oil.jpg" alt="oil theme" width="500" height="313" />
+    		            <div class="caption">
+    		            	<h3>Oil</h3>
+    		            </div>
+    		        </div>
+    		    </li>
+    		</ul>
+
+    		<h3>How to change the theme</h3>
+    		<p>If you are familir with Compass/SASS, the easiest way to change the color theme is to change the variable <code>$theme</code> in the beginning of the <b>main.scss</b> file, which is located in <code>./lib/main.scss</code>. Just set the variable to the name of the predefined themes (use lowercase), recompile the CSS files and you are all set:</p>
+    		<pre class="prettyprint">$theme : "orange";</pre>
+
+    		<p>If you are unfamiliar with the Compass/SASS authoring framework, you can change the color theme by calling the other CSS file. The default theme is "violet". Just change the link to the other CSS file in <code>head</code> section of the HTML document from this:</p>
+    		<pre class="prettyprint linenums">
+&lt;!--  = Custom styles =  --&gt;
+&lt;link rel="stylesheet" href="stylesheets/main.css" /&gt;</pre>
+
+			<p>to this:</p>
+
+    		<pre class="prettyprint linenums">
+&lt;!--  = Custom styles =  --&gt;
+&lt;link rel="stylesheet" href="stylesheets/orange.css" /&gt;&lt;!--  or "blue.css" or "oil.css" or "olive.css"  --&gt;</pre>
+
+    		<h3>Create your custom color theme</h3>
+
+        	<p>Watch the video below how to create a custom color theme:</p>
+
+        	<iframe width="940" height="705" src="http://www.youtube.com/embed/wyuSyi7622A" frameborder="0" allowfullscreen></iframe>
+
+
+        </section>
+
+
+
+        <!-- Custom changes
+        ================================================== -->
+        <section id="contact-form">
+        	<div class="page-header">
+        		<h1>Contact and Appointment Form</h1>
+        	</div>
+
+        	<h4>Contact Form</h4>
+
+    		<p>The working contact form has been added to the Hairpress template in version v1.2.</p>
+    		<p>The form is written in PHP and can be found in <code>./contact.php</code>. Be sure that your server supports PHP and has all the required settings for build-in <code>mail()</code> PHP function.</p>
+    		<p>All you need to do to enable the PHP form is to point the user to the <code>contact.php</code> instead of <code>contact.html</code> and change the following variable in the <code>./incl/send-email.php</code> to your actual email address:</p>
+<pre class="prettyprint linenums">&lt;?php
+
+/* set the email of the recipient (your email) */
+$recipient = "your.email@example.com";</pre>
+
+			<p>The message will be sent directly from your website to the email address you have specified above and will have the following form:</p>
+			<pre>----- Info about the sender -----
+
+Name: [name]
+Email: [email]
+Phone: [phone]
+
+
+----- Message -----
+
+[the actual message from the user which sent the email]</pre>
+
+			<h4>Appointment Form</h4>
+
+			<p>The working appointment form has been added to the Hairpress template in version v1.4.1.</p>
+    		<p>The form is written in PHP and can be found in <code>./make-an-appointment.php</code>. Be sure that your server supports PHP and has all the required settings for build-in <code>mail()</code> PHP function.</p>
+    		<p>All you need to do to enable the PHP form is to point the user to the <code>make-an-appointment.php</code> instead of <code>make-an-appointment.html</code> and change the following variable in the <code>./incl/send-appointment.php</code> to your actual email address:</p>
+<pre class="prettyprint linenums">&lt;?php
+
+/* set the email of the recipient (your email) */
+$recipient = "your.email@example.com";</pre>
+
+			<p>The message will be sent directly from your website to the email address you have specified above and will have the following form:</p>
+			<pre>----- Info about the sender -----
+
+Name: [name]
+Date: [date]
+Flexible on dates: [Yes/No]
+Email: [email]
+Phone: [phone]
+
+
+----- Message -----
+
+[the actual message from the user which sent the email]</pre>
+
+        </section>
+
+
+		<!-- changelog
+        ================================================== -->
+        <section id="changelog">
+        	<div class="page-header">
+        		<h1>Changelog</h1>
+        	</div>
+
+    		<p>Changelog of the theme is available on <a href="http://themeforest.net/item/hairpress-html-template-for-hair-salons/3803346?ref=ProteusThemes">ThemeForest website</a>.</p>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+    	<hr />
+    	<hr />
+      <div class="container">
+        <p>Created by <a href="https://twitter.com/JakaSmid">Jaka Šmid</a> (designer) and <a href="https://twitter.com/primozcigler">Primož Cigler</a> (frontend developer), <a href="http://www.proteusthemes.com/">ProteusThemes</a>, <a href="http://www.proteusnet.com/">ProteusNet d.o.o. company</a></p>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="bootstrap-sass/assets/js/jquery.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-transition.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-button.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-typeahead.js"></script>
+    <script src="bootstrap-sass/assets/js/bootstrap-affix.js"></script>
+
+    <script src="bootstrap-sass/assets/js/holder/holder.js"></script>
+    <script src="bootstrap-sass/assets/js/google-code-prettify/prettify.js"></script>
+
+    <script src="bootstrap-sass/assets/js/application.js"></script>
+
+
+
+  </body>
+</html>
