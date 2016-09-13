@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Hairpress, HTML template - Make an Appointment</title>
+    <title>DoMajesticSalon, - Make an Appointment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="ProteusThemes d.o.o.">
@@ -71,10 +71,10 @@
 			  <!--  ==============================  -->
     	      <a class="brand" href="index.html">
     	      	<img src="images/scissors.png" alt="HairPress Logo" width="48" height="53" class="logo" />
-    	      	<h1>
-    	      		hair<span class="theme-clr">press</span>
+    	      	<h1 style="font-size:20px">
+    	      		Dominican<span class="theme-clr">Majestic</span>
     	      	</h1>
-    	      	<span class="tagline">Template for Hairsalons</span>
+    	      	<span class="tagline">Your hair is our specialty</span>
 	      	  </a>
 	      	  
 	      	  <!--  =============================================  -->
@@ -192,17 +192,17 @@
 		                		<h5>Where can you find us?</h5>
 		                		<span class="bolded-line"></span>
 		                	</div>
-		                	<strong class="black-clr">Hairpress Saloon</strong> <br />
-							Example Street 546 <br />
-							Creative Town, ZIP 12345 <br />
-							Slovenia, EU <br /><br />
+		                	<strong class="black-clr">Dominican Majestic Hair Salon</strong> <br />
+							888 N. Federal Hwy <br />
+							Pompano Beach, ZIP 33062 <br />
+							Florida, USA <br /><br />
 							
 							<a href="#" class="read-more">VIEW MAP -</a> <br /><br />
 							
-							Phone: <strong class="black-clr">+386 01 2345-6789</strong> <br />
-							Fax: <strong class="black-clr">+386 01 2345-6789</strong> <br />
-							Mail: <strong class="black-clr">info@proteusthemes.com</strong> <br />
-							Web: <strong class="black-clr">www.hairpress.com</strong>
+							Phone: <strong class="black-clr">754 205-2953</strong> <br />
+							Fax: <strong class="black-clr">Not Available</strong> <br />
+							Mail: <strong class="black-clr">majesticbeautysalon888@hotmail.com</strong> <br />
+							Web: <strong class="black-clr">www.domajesticsalon.com</strong>
 	
 		                </div>
 		                
@@ -220,8 +220,8 @@
     						<span class="bolded-line"></span>
     					</div>
     					
-    					<p>To make an appointment you have to vehicula turpis sed lutpat Quisque vitae quam neque. Morbi cilisis placerat dapibus. Etiam ultrice 
-    	nulla ed leo malesuada commodo bibendum orci vi verra. Donec suscipit vehicula turpis sed lutpat.</p>
+    					<p>To make an appointment just fill out the form below. If you need accommodations or any special requirements let us know
+    	                and we'll make the necessary arrangements to suit your needs.</p>
     					
     					<?php require_once('incl/send-appointment.php'); ?>
     					
@@ -294,18 +294,18 @@
             	        <span class="bolded-line"></span>
             	    </div>
             	    <p>
-            	        <strong>Hairpress Salon</strong> <br />
-                        Example Street 546 <br />
-                        Creative Town, ZIP 12345 <br />
-                        Slovenia, EU <br />
+            	        <strong>Dominican Majestic Hair Salon</strong> <br />
+                        888 N. Federal Hwy <br />
+                        Pompano Beach, ZIP 33062  <br />
+                        Florida, USA  <br />
                         <a href="#" class="read-more">VIEW MAP -</a>
                     </p>
                     <div class="bolded-line"></div>
                     <p>
-                        Phone: <strong>+386 01 2345-6789</strong> <br />
-                        Fax: <strong>+386 01 2345-6789</strong> <br />
-                        Mail: <strong>info@proteusthemes.com</strong> <br />
-                        Web: <strong>www.hairpress.com</strong>
+                        Phone: <strong>754 205-2953</strong> <br />
+                        Fax: <strong>Not Available</strong> <br />
+                        Mail: <strong> majesticbeautysalon888@hotmail.com</strong> <br />
+                        Web: <strong>www.domajesticsalon.com</strong>
                     </p>
             	</div><!-- /navigavation -->
             	
@@ -323,7 +323,7 @@
         		    &copy; Copyright 2013, LightBox2 by Lokesh Dhakar | <a href="http://lokeshdhakar.com/">lokeshdhakar.com</a>
     		    </div>
         		<div class="span6">
-        		    <div class="pull-right">Hairpress Theme by <a href="http://www.proteusthemes.com">ProteusThemes</a></div>
+        		    <div class="pull-right">DoMajestic Theme by <a href="http://www.proteusthemes.com">ProteusThemes</a></div>
     		    </div>
         	</div>
         </div>

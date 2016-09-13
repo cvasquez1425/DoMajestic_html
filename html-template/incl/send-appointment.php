@@ -1,7 +1,7 @@
 <?php
 
 /* set the email of the recipient (your email) */
-$recipient = "majesticbeautysalon888@hotmail.com";
+$recipient = "cvasquez1425@hotmail.com";
 
 
 if ( isset($_POST['submit']) ) // just send the email if the $_POST variable is set
